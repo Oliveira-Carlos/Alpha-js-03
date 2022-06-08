@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Part 03</title>
+</head>
+<body>
+    <form class="calculator">
+        <input id="operando1" type="number" name="operando1">
+        <input id="operando2" type="number" name="operando2">
+        
+        <select id="operador">
+            <option value="sum" >Soma</option>
+            <option value="subtraction" >Subtração</option>
+            <option value="multiplication">Multiplicação</option>
+            <option value="division">Divisão</option>
+        </select>
+
+        <button onclick="calcula()" type="button" >calcular</button>
+
+        <span id="result">Resultado</span>
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+</html>
